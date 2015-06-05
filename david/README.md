@@ -4,8 +4,9 @@
 
 ## New Grid
 This can replace the current grid which uses explicit identifiers.
-@args: $numberofproducts - (int) the number of products in a row
-			 $gutters - (int) Percentage gutters (no % sign)
+args: 
+⋅⋅⋅$numberofproducts - (int) the number of products in a row
+⋅⋅⋅$gutters - (int) Percentage gutters (no % sign)
 ```sass
 @mixin new-grid($numberofproducts, $gutters) {
   $margin: 0;
