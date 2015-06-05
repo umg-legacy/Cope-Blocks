@@ -1,4 +1,4 @@
-# Heres a place to put all of those reusable bits of code for store builds
+# Reusable bits of code for store builds
 
 **Warning**: Contains precompiled code. Not suitable for cope upload (or vegetarians)
 
