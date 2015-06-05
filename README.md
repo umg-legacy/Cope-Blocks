@@ -1,5 +1,7 @@
 # Cope-Blocks
-A library of reusable code snippets that everyone can use to get stuff done on the COPE platform. Any can update this and request new things to be added using pull requests
+A library of reusable code snippets that everyone can use to get stuff done on the COPE platform. Anyone can update this and request new things to be added using the issues tab (on the right ->). Just login/signup and raise a new bug.
+
+To use, copy n paste into text editor (Sublime text, Text mate, Notepad. NOT WORD) and save in the format ```storename.css```
 
 ## The basics
 
@@ -9,7 +11,7 @@ To create a link that opens in a new tab/window. The ```target="_blank"``` does 
 ```
 
 ## Cope 
-To change the colors of help(terms & conditions, delivery, privacy policy) page headings
+To change the colors of headings on the help page(terms & conditions, delivery, privacy policy) 
 ```css
 .reveal, .terms .col-mid a, .delivery .col-mid a, .privacy .col-mid a, .help .col-mid a, .terms .col-mid a:visited, .delivery .col-mid a:visited, .privacy .col-mid a:visited, .help .col-mid a:visited{ 
 	color: #222; 
