@@ -16,7 +16,18 @@ Instead of WRITING EVERYTHING IN CAPITALS you should use
 .selector{ text-transform: uppercase; } 
 ```
 
+Using the ```html <b> ``` tag is oldschool and no longer semantically correct. Its better to use 
+```html
+<p class="preorder-text">Enter some <span>Bold</span> text here</p>
+```
+using css to style to span
+```css
+.preorder-text span{ font-weight: bold; }
+```
+
 ## Cope 
+
+### Store
 To change the colors of headings on the help page(terms & conditions, delivery, privacy policy) 
 ```css
 .reveal, .terms .col-mid a, .delivery .col-mid a, .privacy .col-mid a, .help .col-mid a, .terms .col-mid a:visited, .delivery .col-mid a:visited, .privacy .col-mid a:visited, .help .col-mid a:visited{ 
@@ -27,4 +38,27 @@ To change the colors of headings on the help page(terms & conditions, delivery, 
 To make text centered on the categories pages
 ```css
 .main .product{ text-align: center; }
+```
+
+### Checkout
+Checkout styling must be in a new ```storename-checkout.css``` file and is uploaded to the checkout input block.
+
+Buttons can be styled (color defines the text colour)
+```css
+.next, button{
+	color: red;
+	background-color: #000;
+}
+.next:hover, .next:active, .next:focus, button:hover,  .button:active, .button:focus{
+	color: white;
+	background-color: red;
+}
+```
+
+The forgotten password link can be changed (```text decoration: none``` removes link underline)
+```css
+a{
+	color: red;
+	text-decoration: none;
+}
 ```
