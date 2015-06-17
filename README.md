@@ -46,19 +46,19 @@ Checkout styling must be in a new ```storename-checkout.css``` file and is uploa
 Buttons can be styled (color defines the text colour)
 ```css
 .next, button{
-	color: red;
-	background-color: #000;
+	color: #ff0000;
+	background-color: #fff;
 }
 .next:hover, .next:active, .next:focus, button:hover,  .button:active, .button:focus{
-	color: white;
-	background-color: red;
+	color: #fff;
+	background-color: #ff0000;
 }
 ```
 
 The forgotten password link can be changed (```text decoration: none``` removes link underline)
 ```css
 a{
-	color: red;
+	color: #ff0000;
 	text-decoration: none;
 }
 ```
