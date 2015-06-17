@@ -12,7 +12,9 @@ To create a link that opens in a new tab/window. The ```target="_blank"``` does 
 ```
 
 Instead of WRITING EVERYTHING IN CAPITALS you should use
-```css .selector{ text-transform: uppercase; } ```
+```css 
+.selector{ text-transform: uppercase; } 
+```
 
 ## Cope 
 To change the colors of headings on the help page(terms & conditions, delivery, privacy policy) 
