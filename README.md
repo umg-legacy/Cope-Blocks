@@ -1,7 +1,7 @@
 # Cope-Blocks
 A library of reusable code snippets that everyone can use to get stuff done on the COPE platform. Anyone can update this and request new things to be added using the issues tab (on the right ->). Just login/signup and raise a new bug.
 
-To use, copy n paste into text editor (Sublime text, Text mate, Notepad. NOT WORD) and save in the format ```storename.css```
+To use, copy n paste into text editor (Sublime text, Atom, Text mate, Notepad. NOT WORD) and save in the format ```storename.css```
 The go to the shop designs tab, click on the Custom style sheets tab. The file goes in the top 'stylesheet' input. Then save + refresh.
 
 ## The basics
@@ -10,6 +10,7 @@ To create a link that opens in a new tab/window. The ```target="_blank"``` does 
 ```html
 <a href="//www.google.com/" target="_blank">Click here</a>
 ```
+
 
 Instead of WRITING EVERYTHING IN CAPITALS you should use
 ```css 
@@ -20,9 +21,13 @@ Using the ```html <b> ``` tag is oldschool and no longer semantically correct. I
 ```html
 <p class="preorder-text">Enter some <span>Bold</span> text here</p>
 ```
-using css to style to span
+using css to style the span
 ```css
 .preorder-text span{ font-weight: bold; }
+```
+or inline
+```html
+<p>Enter some <span style="font-weight: bold;">Bold</span> text here</p>
 ```
 
 ## Cope 
