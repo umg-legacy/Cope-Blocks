@@ -32,22 +32,20 @@ or inline
 
 ## Cope 
 
-### Store
-
-#### Help Pages
+### Help Pages
 To change the colors of headings on the help page(terms & conditions, delivery, privacy policy) 
 ```css
 .reveal, .terms .col-mid a, .delivery .col-mid a, .privacy .col-mid a, .help .col-mid a, .terms .col-mid a:visited, .delivery .col-mid a:visited, .privacy .col-mid a:visited, .help .col-mid a:visited{ 
 	color: #222; 
 }
 ```
-#### Categories Pages
+### Categories Pages
 To make text centered on the categories pages
 ```css
 .main .product{ text-align: center; }
 ```
 
-#### Basket Dropdown
+### Basket Dropdown
 The dropdown basket can be styled too.
 
 To make the title like the same color as the rest of the minicart text:
