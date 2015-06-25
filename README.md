@@ -16,6 +16,10 @@ Instead of WRITING EVERYTHING IN CAPITALS you should use
 ```css 
 .selector{ text-transform: uppercase; } 
 ```
+or inline
+```html
+<p style="text-transform: uppercase;">Some text that you want in capitals</p>
+```
 
 Using the ```html <b> ``` tag is oldschool and no longer semantically correct. Its better to use 
 ```html
