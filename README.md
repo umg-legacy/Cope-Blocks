@@ -60,6 +60,20 @@ To change to colour of the "view basket" link:
   color: red;
 }
 ```
+### Product Pages
+To remove Digital tables
+```css
+.digital{display: none;}
+```
+
+To get rid of table styling
+```css
+.product .table, .product table tr:nth-child(even), .product table th, .product table td{
+	background: none;
+	border: 0;
+}
+```
+
 
 ### Checkout
 Checkout styling must be in a new ```storename-checkout.css``` file and is uploaded to the checkout input block.
