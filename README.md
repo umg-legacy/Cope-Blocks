@@ -53,6 +53,39 @@ If you run into issues try adding this
 display: block;
 width: 100%;
 ```
+### Lists
+Don't make lists with p tags or individually number list items. There is an easier way.
+
+#### Unordered lists
+For lists without numbers
+```html
+<ul>
+	<li>List Item</li>
+	<li>List Item</li>
+	<li>List Item</li>
+</ul>
+```
+Gives you a list that looks like
+- List Item
+- List Item
+- List Item
+
+#### Ordered lists
+For lists with numbers
+```html
+<ol>
+	<li>List Item</li>
+	<li>List Item</li>
+	<li>List Item</li>
+</ol>
+```
+Gives you a list that looks like
+1. List Item
+2. List Item
+3. List Item
+
+You can get rid of bullet points or bumbers by using ```text-decoration: none;```
+
 
 ## Cope 
 
