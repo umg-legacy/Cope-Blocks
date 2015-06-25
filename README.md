@@ -1,7 +1,7 @@
 # Cope-Blocks
 A library of reusable code snippets that everyone can use to get stuff done on the COPE platform. Anyone can update this and request new things to be added using the issues tab (on the right ->). Just login/signup and raise a new bug.
 
-To use, copy n paste into text editor (Sublime text, Atom, Text mate, Notepad. NOT WORD) and save in the format ```storename.css```
+To use, copy n paste into text editor ([Sublime text](//www.sublimetext.com/), [Atom](//atom.io/), Text mate, Notepad. **NOT WORD**) and save as a .css (Cascading Style Sheet) file in the format ```storename.css```
 The go to the shop designs tab, click on the Custom style sheets tab. The file goes in the top 'stylesheet' input. Then save + refresh.
 
 ## The basics
@@ -80,6 +80,7 @@ For lists with numbers
 </ol>
 ```
 Gives you a list that looks like
+
 1.List Item
 2.List Item
 3.List Item
