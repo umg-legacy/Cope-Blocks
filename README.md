@@ -6,12 +6,13 @@ The go to the shop designs tab, click on the Custom style sheets tab. The file g
 
 ## The basics
 
+### Open Links in new windows
 To create a link that opens in a new tab/window. The ```target="_blank"``` does this for us. 
 ```html
 <a href="//www.google.com/" target="_blank">Click here</a>
 ```
 
-
+### Uppercase Text
 Instead of WRITING EVERYTHING IN CAPITALS you should use
 ```css 
 .selector{ text-transform: uppercase; } 
@@ -21,6 +22,7 @@ or inline
 <p style="text-transform: uppercase;">Some text that you want in capitals</p>
 ```
 
+### Bold text
 Using the ```html <b> ``` tag is oldschool and no longer semantically correct. Its better to use 
 ```html
 <p class="preorder-text">Enter some <span>Bold</span> text here</p>
@@ -33,6 +35,24 @@ or inline
 ```html
 <p>Enter some <span style="font-weight: bold;">Bold</span> text here</p>
 ```
+### Centered text
+To make text center aligned (you can do left and right aligned with the same method)
+```html
+<p class="pre-order-text">Enter some text here</p>
+```
+using css to style the span
+```css
+.preorder-text{ text-align: center; }
+```
+or inline
+```html
+<p style="text-align: center;">Enter some text here</p>
+```
+If you run into issues try adding this
+```css
+display: block;
+width: 100%;
+```
 
 ## Cope 
 
@@ -44,7 +64,7 @@ To change the colors of headings on the help page(terms & conditions, delivery, 
 }
 ```
 ### Categories Pages
-To make text centered on the categories pages
+To make product info text centered on the categories pages
 ```css
 .main .product{ text-align: center; }
 ```
