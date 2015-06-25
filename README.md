@@ -38,7 +38,7 @@ or inline
 ### Centered text
 To make text center aligned (you can do left and right aligned with the same method)
 ```html
-<p class="pre-order-text">Enter some text here</p>
+<p class="preorder-text">Enter some text here</p>
 ```
 using css to style the span
 ```css
