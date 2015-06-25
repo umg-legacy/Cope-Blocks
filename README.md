@@ -81,9 +81,9 @@ For lists with numbers
 ```
 Gives you a list that looks like
 
-1.List Item
-2.List Item
-3.List Item
+1. List Item
+2. List Item
+3. List Item
 
 You can get rid of bullet points or bumbers by using ```text-decoration: none;```
 
