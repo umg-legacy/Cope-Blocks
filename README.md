@@ -85,7 +85,7 @@ Gives you a list that looks like
 2. List Item
 3. List Item
 
-You can get rid of bullet points or bumbers by using ```text-decoration: none;```
+You can get rid of bullet points or numbers by using ```text-decoration: none;```
 
 
 ## Cope 
