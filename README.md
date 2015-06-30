@@ -118,6 +118,14 @@ To change to colour of the "view basket" link:
   color: red;
 }
 ```
+To change to colour of the Add/remove buttons:
+```css
+.add, .remove {
+  background-color: purple;
+  color: white;
+}
+```
+
 ### Product Pages
 To remove Digital tables
 ```css
