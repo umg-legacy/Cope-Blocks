@@ -114,7 +114,7 @@ To make the title like the same color as the rest of the minicart text:
 ```
 To change to colour of the "view basket" link:
 ```css
-.mini-footer > a {
+.mini-footer > a, .mini-footer > a:visited {
   color: red;
 }
 ```
