@@ -126,7 +126,7 @@ $flex-product-margin: 3.5em; //Aprox total margin for 3 products based on 1%;
 }
 //The point where flexbox nolonger devides the total width by number of products to make the expand to full width. After this it makes the no. of products in a row bigger
 //(Products width x number of products per row) + product margin = ~1162px
-@media (min-width: (($flex-product-width * 3) + $flex-product-margin)){
+@media (min-width: (($flex-product-width * 3) + $flex-product-margin))){
   .flexbox{
     .main .product{
       width: $flex-product-width; //if you want them to redraw
