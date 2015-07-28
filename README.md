@@ -87,9 +87,29 @@ Gives you a list that looks like
 
 You can get rid of bullet points or numbers by using ```text-decoration: none;```
 
+You can group idential css rules by using commas
+```css
+.oneSelector,
+.twoSelector,
+.threeSelector{
+	display:none;
+}
+
+```
 
 ## Cope 
 
+Trim down product list information
+```css
+.main .product .image, //Selects Image
+.main .product .title,  //Selects title
+.main .product .format, //Selects format
+.main .product .dispatch, //Selects dispatch
+.main .product .price, //Selects price
+.main .product .was{ //Selects was price
+	display:none;
+}
+```
 ### Help Pages
 To change the colors of headings on the help page(terms & conditions, delivery, privacy policy) 
 ```css
@@ -139,7 +159,12 @@ To get rid of table styling
 	border: 0;
 }
 ```
-
+To get rid of Running time row on digital products
+```css
+.product .digital tbody:last-of-type{
+    display: none;
+}
+```
 
 ### Checkout
 Checkout styling must be in a new ```storename-checkout.css``` file and is uploaded to the checkout input block.
