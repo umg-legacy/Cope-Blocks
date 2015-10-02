@@ -136,12 +136,11 @@ To make product info text centered on the categories pages
 ### Basket Dropdown
 The dropdown basket can be styled too.
 
-To make the title like the same color as the rest of the minicart text:
-```css
-.mini-cart .title a{
-	color: inherit;
-}
-```
+~~To make the title like the same color as the rest of the minicart text:~~
+~~.mini-cart .title a{ color: inherit; }~~
+
+Best Practice is to turn of basket links in the cope shop settings window
+
 To change to colour of the "view basket" link:
 ```css
 .mini-footer > a, .mini-footer > a:visited {
