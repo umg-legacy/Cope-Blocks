@@ -94,8 +94,37 @@ You can group idential css rules by using commas
 .threeSelector{
 	display:none;
 }
+```
+
+### Media Queries
+Media queries allow you to apply styling at a breakpoint (For example: screensize). An example of this is to hide the mobile dropdown menu on devices bigger than 768px.
+```css
+@media(min-width:768px){
+	//Put styles here
+}
+```
+Breakpoints reflect where the content 'breaks'(defined as looking sub-optimal).
+ 
+Common breakpoints are:
+```css
+/* Mobile styles are outside of media queries */
+
+@media(min-width:480px){
+	/* Put Large mobile styles here */
+}
+@media(min-width:768px){
+	/* Put Tablet styles here */
+}
+@media(min-width:991px){
+	/* Put small desktop styles here */
+}
+@media(min-width:1200px){
+	/* Put large desktop styles here */
+}
 
 ```
+
+You can read more about breakpoints on the [Google developer portal](https://developers.google.com/web/fundamentals/layouts/rwd-fundamentals/how-to-choose-breakpoints)
 
 ## Cope 
 
