@@ -112,12 +112,12 @@ Apple touch logo (png) - 180px x 180px;
 ###Product List Selectors
 Trim down product list information (delete as appropriate)
 ```css
-.main .product .image, //Selects Image
-.main .product .title,  //Selects title
-.main .product .format, //Selects format
-.main .product .dispatch, //Selects dispatch
-.main .product .price, //Selects price
-.main .product .was{ //Selects was price
+.main .product .image, /* Selects Image */
+.main .product .title,  /* Selects title */
+.main .product .format, /* Selects format */
+.main .product .dispatch, /* Selects dispatch */
+.main .product .price, /* Selects price */
+.main .product .was{ /* Selects was price */
 	display:none;
 }
 ```
