@@ -99,7 +99,18 @@ You can group idential css rules by using commas
 
 ## Cope 
 
-Trim down product list information
+###Image sizes
+
+Logo Images (jpg, png, gif) Max-width: 1200px;
+Secure Logo (png, gif) - Aprox 300px x 105px;
+
+Mail Logo (jpg, png, gif) - 266px x 120px;
+Invoice Logo (png, gif) - 300px x 200px;
+Shortcut Icon / Favicon (ico). - 16px 16px;
+Apple touch logo (png) - 180px x 180px;
+
+###Product List Selectors
+Trim down product list information (delete as appropriate)
 ```css
 .main .product .image, //Selects Image
 .main .product .title,  //Selects title
