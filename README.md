@@ -156,6 +156,12 @@ To change to colour of the Add/remove buttons:
 ```
 
 ### Product Pages
+To hide 'Buy now - back in stock soon'
+```css
+.prod-details .dispatch{
+	display: none;
+}
+```
 To remove Digital tables
 ```css
 .digital{display: none;}
