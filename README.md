@@ -149,6 +149,17 @@ Trim down product list information (delete as appropriate)
 	display:none;
 }
 ```
+
+### Background attachment
+To override the template styling that makes the background scroll on mobile use:
+```css
+@media (max-width: 48em){
+	body {
+	  background-attachment: fixed;
+	}
+}
+```
+
 ### Help Pages
 To change the colors of headings on the help page(terms & conditions, delivery, privacy policy) 
 ```css
