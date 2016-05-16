@@ -243,3 +243,39 @@ a{
 	text-decoration: none;
 }
 ```
+
+### Removing Social Media Bubbles
+
+To remove the social media bubbles on product pages.
+
+```css
+
+.js .social-buttons {
+  height: 23px !important;
+  width: auto;
+  overflow: hidden;
+}
+
+iframe#twitter-widget-0{   
+    top: 0px!important;
+    }
+}
+
+span.pinterest-pinit a { display: none!important; }
+
+.googleplus-one div{
+    height: 22px!important;
+    overflow: hidden;
+  }
+  iframe {
+    position: relative!important;
+    top: -39px!important;
+  }
+}
+
+.facebook-like span{
+    height: 22px;
+    overflow: hidden;
+  }
+}
+```
