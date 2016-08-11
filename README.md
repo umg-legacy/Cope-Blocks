@@ -279,3 +279,15 @@ span.pinterest-pinit a { display: none!important; }
   }
 }
 ```
+
+
+### Removing Social Media Bubbles
+
+To remove social media completely.
+
+```css
+
+.social-buttons {
+display:none;
+}
+```
