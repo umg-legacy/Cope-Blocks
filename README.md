@@ -305,7 +305,7 @@ display:none;
 
 How to update  ([Sound of Vinyl](//thesoundofvinyl.com/*/Records-Of-The-Week/)
 
-1. Shorten the product descriptions.
+#### - Shorten the product descriptions.
 Work out where you want the wording to end - add the div class around the text you want to HIDE.
 
 ```css
@@ -316,11 +316,17 @@ Tracklist:
 
 ```
 
-2. Update the Products
+#### - Update the Products
 They are set up as Frontend Segments. 
+
+```css
+
 ROW-product1
 ROW-product2
 ROW-product3
+
+
+```
 
 Edit Product Frontend Segment > Display Product > CHOOSE YOU PRODUCT
 
