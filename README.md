@@ -281,7 +281,7 @@ span.pinterest-pinit a { display: none!important; }
 ```
 
 
-### Removing Social Media Bubbles
+### Removing Social Media Icons / Bubbles
 
 To remove social media completely.
 
@@ -291,3 +291,37 @@ To remove social media completely.
 display:none;
 }
 ```
+
+To remove social media completely.
+
+```css
+
+.social-buttons {
+display:none;
+}
+```
+
+### Sound of Vinyl - 25% off Page
+
+How to update  ([Sound of Vinyl](//thesoundofvinyl.com/*/Records-Of-The-Week/)
+
+1. Shorten the product descriptions.
+Work out where you want the wording to end - add the div class around the text you want to HIDE.
+
+```css
+
+<div class="more-info;”>
+Tracklist: 
+</div>
+
+```
+
+2. Update the Products
+They are set up as Frontend Segments. 
+ROW-product1
+ROW-product2
+ROW-product3
+
+Edit Product Frontend Segment > Display Product > CHOOSE YOU PRODUCT
+
+DONE! they should be updated on the Record of the week page! 
