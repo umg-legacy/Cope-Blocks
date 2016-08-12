@@ -303,14 +303,17 @@ display:none;
 
 ### Sound of Vinyl - 25% off Page
 
-How to update  ([Sound of Vinyl](//thesoundofvinyl.com/*/Records-Of-The-Week/)
+How to update  [Sound of Vinyl](//thesoundofvinyl.com/*/Records-Of-The-Week/)
 
 #### - Shorten the product descriptions.
 Work out where you want the wording to end - add the div class around the text you want to HIDE.
 
-```css
 
-<div class="more-info;”>
+
+
+```html
+
+<div class="more-info">
 Tracklist: 
 </div>
 
@@ -324,7 +327,6 @@ They are set up as Frontend Segments.
 ROW-product1
 ROW-product2
 ROW-product3
-
 
 ```
 
