@@ -292,15 +292,6 @@ display:none;
 }
 ```
 
-To remove social media completely.
-
-```css
-
-.social-buttons {
-display:none;
-}
-```
-
 ### Sound of Vinyl - 25% off Page
 
 How to update  [Sound of Vinyl](//thesoundofvinyl.com/*/Records-Of-The-Week/)
@@ -333,3 +324,16 @@ ROW-product3
 Edit Product Frontend Segment > Display Product > CHOOSE YOU PRODUCT
 
 DONE! they should be updated on the Record of the week page! 
+
+
+
+### Removing dispatch notification
+
+To remove dispatch notification off the HOME PAGE, PRODUCT PAGE and MINICART.
+
+```css
+
+li.dispatch, dd.dispatch {
+display:none;
+}
+```
